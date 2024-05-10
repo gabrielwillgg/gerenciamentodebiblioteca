@@ -1,8 +1,8 @@
 import tkinter as tk
 from tkinter import ttk
 import tkinter.messagebox
+import pyodbc
 
-import pyodbc #importando o pyodbc
 #dados necessários para podermos criar e nos conectar com o banco de dados
 dados_conexao = ("Driver={SQLite3 ODBC Driver};"
                  "Server=localhost;"
